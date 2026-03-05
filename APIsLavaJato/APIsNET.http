@@ -1,0 +1,6 @@
+@APIsNET_HostAddress = http://localhost:5116
+
+GET {{APIsNET_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

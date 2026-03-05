@@ -1,0 +1,233 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsLavaJato.csproj|c:\\users\\165405\\source\\repos\\apislavajato\\apislavajato\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsLavaJato.csproj|solutionrelative:apislavajato\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsLavaJato.csproj|c:\\users\\165405\\source\\repos\\apislavajato\\apislavajato\\controllers\\throwcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsLavaJato.csproj|solutionrelative:apislavajato\\controllers\\throwcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsLavaJato.csproj|c:\\users\\165405\\source\\repos\\apislavajato\\apislavajato\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsLavaJato.csproj|solutionrelative:apislavajato\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsNET.csproj|c:\\users\\165405\\source\\repos\\apislavajato\\apislavajato\\apisnet.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsNET.csproj|solutionrelative:apislavajato\\apisnet.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsLavaJato.csproj|c:\\users\\165405\\source\\repos\\apislavajato\\apislavajato\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsLavaJato.csproj|solutionrelative:apislavajato\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsLavaJato.csproj|c:\\users\\165405\\source\\repos\\apislavajato\\apislavajato\\viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsLavaJato.csproj|solutionrelative:apislavajato\\viewmodel\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsLavaJato.csproj|c:\\users\\165405\\source\\repos\\apislavajato\\apislavajato\\infraestrutura\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsLavaJato.csproj|solutionrelative:apislavajato\\infraestrutura\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsNET.csproj|c:\\users\\165405\\source\\repos\\apislavajato\\apislavajato\\infraestrutura\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsNET.csproj|solutionrelative:apislavajato\\infraestrutura\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIs.NET.csproj|c:\\users\\165405\\source\\repos\\apislavajato\\apislavajato\\domain\\model\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIs.NET.csproj|solutionrelative:apislavajato\\domain\\model\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIs.NET.csproj|c:\\users\\165405\\source\\repos\\apislavajato\\apislavajato\\domain\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIs.NET.csproj|solutionrelative:apislavajato\\domain\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsLavaJato.csproj|c:\\users\\165405\\source\\repos\\apislavajato\\apislavajato\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B514D986-9885-4FCD-8687-9F044F6EA4C7}|APIsLavaJato\\APIsLavaJato.csproj|solutionrelative:apislavajato\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "APIsNET.http",
+              "DocumentMoniker": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\APIsNET.http",
+              "RelativeDocumentMoniker": "APIsLavaJato\\APIsNET.http",
+              "ToolTip": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\APIsNET.http",
+              "RelativeToolTip": "APIsLavaJato\\APIsNET.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-03-05T10:52:19.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConnectionContext.cs",
+              "DocumentMoniker": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Infraestrutura\\ConnectionContext.cs",
+              "RelativeDocumentMoniker": "APIsLavaJato\\Infraestrutura\\ConnectionContext.cs",
+              "ToolTip": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Infraestrutura\\ConnectionContext.cs",
+              "RelativeToolTip": "APIsLavaJato\\Infraestrutura\\ConnectionContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T21:08:28.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Domain\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "APIsLavaJato\\Domain\\Model\\Employee.cs",
+              "ToolTip": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Domain\\Model\\Employee.cs",
+              "RelativeToolTip": "APIsLavaJato\\Domain\\Model\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T17:04:57.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Program.cs",
+              "RelativeDocumentMoniker": "APIsLavaJato\\Program.cs",
+              "ToolTip": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Program.cs",
+              "RelativeToolTip": "APIsLavaJato\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T17:51:21.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThrowController.cs",
+              "DocumentMoniker": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Controllers\\ThrowController.cs",
+              "RelativeDocumentMoniker": "APIsLavaJato\\Controllers\\ThrowController.cs",
+              "ToolTip": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Controllers\\ThrowController.cs",
+              "RelativeToolTip": "APIsLavaJato\\Controllers\\ThrowController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T17:07:17.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "APIsLavaJato\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Services\\TokenService.cs",
+              "RelativeToolTip": "APIsLavaJato\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T19:35:32.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\ViewModel\\EmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "APIsLavaJato\\ViewModel\\EmployeeViewModel.cs",
+              "ToolTip": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\ViewModel\\EmployeeViewModel.cs",
+              "RelativeToolTip": "APIsLavaJato\\ViewModel\\EmployeeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T17:55:57.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "APIsLavaJato\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "APIsLavaJato\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T17:52:54.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "APIsLavaJato\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "APIsLavaJato\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T21:24:11.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Infraestrutura\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "APIsLavaJato\\Infraestrutura\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Infraestrutura\\EmployeeRepository.cs",
+              "RelativeToolTip": "APIsLavaJato\\Infraestrutura\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T17:48:42.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Domain\\Model\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "APIsLavaJato\\Domain\\Model\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\165405\\source\\repos\\APIsLavaJato\\APIsLavaJato\\Domain\\Model\\IEmployeeRepository.cs",
+              "RelativeToolTip": "APIsLavaJato\\Domain\\Model\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T17:42:35.622Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 405,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
