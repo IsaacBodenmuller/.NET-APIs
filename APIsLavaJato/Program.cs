@@ -1,18 +1,36 @@
 using APIsNET;
-using APIsNET.Domain.Model;
-using APIsNET.Infraestrutura;
+using APIsNET.Application.Mapping;
+using APIsNET.Domain.Model.EmployeeAggregate;
+using APIsNET.Infraestrutura.Repositories;
+using Asp.Versioning.ApiExplorer;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using WebApi.Application.Swagger;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+builder.Services.AddAutoMapper(cfg => { }, typeof(DomainToDTOMapping));
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddApiVersioning(o =>
+{
+    o.AssumeDefaultVersionWhenUnspecified = true;
+    o.DefaultApiVersion = new Asp.Versioning.ApiVersion(1, 0);
+}).AddMvc().AddApiExplorer(setup =>
+{
+    setup.GroupNameFormat = "'v'VVV";
+    setup.SubstituteApiVersionInUrl = true;
+});
+builder.Services.ConfigureOptions<ConfigureSwaggerOptions>();
+
 builder.Services.AddSwaggerGen(c =>
 {
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -40,9 +58,21 @@ builder.Services.AddSwaggerGen(c =>
         new List<string>()
         }
     });
+    c.OperationFilter<SwaggerDefaultValues>();
 });
 
 builder.Services.AddTransient<IEmployeeRepository, EmployeeRepository>();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "MyPolicy",
+        policy =>
+        {
+            policy.WithOrigins("https://localhost:8080")
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
+});
 
 var key = Encoding.ASCII.GetBytes(Key.Secret);
 
@@ -70,16 +100,26 @@ if (app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/error-development");
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options =>
+    {
+        var version = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
+        foreach (var description in version.ApiVersionDescriptions)
+        {
+            options.SwaggerEndpoint($"/swagger/{description.GroupName}/swagger.json", $"Web Api - {description.GroupName.ToUpper()}");
+        }
+    });
     //app.MapOpenApi();
 } else
 {
     app.UseExceptionHandler("/error");
 }
 
+app.UseCors("MyPolicy");
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+app.UseAuthentication();
 
 app.MapControllers();
 

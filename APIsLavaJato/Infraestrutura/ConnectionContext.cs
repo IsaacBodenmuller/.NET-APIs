@@ -1,11 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
-using APIsNET.Domain.Model;
+﻿using APIsNET.Domain.Model.CompanyAggregate;
+using APIsNET.Domain.Model.EmployeeAggregate;
+using Microsoft.EntityFrameworkCore;
 
 namespace APIsNET.Infraestrutura
 {
     public class ConnectionContext : DbContext
     {
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Company> Company { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseNpgsql(

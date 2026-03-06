@@ -1,6 +1,6 @@
-﻿using APIsNET.Services;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using APIsNET.Domain.Model;
+using APIsNET.Application.Services;
 
 namespace APIsNET.Controllers
 {
@@ -13,7 +13,7 @@ namespace APIsNET.Controllers
         {
             if (username == "isaac" && password == "1234")
             {
-                var token = TokenService.GenerateToken(new APIsNET.Domain.Model.Employee());
+                var token = TokenService.GenerateToken(new APIsNET.Domain.Model.EmployeeAggregate.Employee());
                 return Ok(token);
             }
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APIsNET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6004fd1b977e6fd381ab9f460393d82760e26cc8")]
 [assembly: System.Reflection.AssemblyProductAttribute("APIsNET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APIsNET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

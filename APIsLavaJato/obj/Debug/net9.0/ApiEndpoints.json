@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "APIsLavaJato.Controllers.AuthController",
+    "ContainingType": "APIsNET.Controllers.AuthController",
     "Method": "Auth",
     "RelativePath": "api/v1/auth",
     "HttpMethod": "POST",
@@ -16,12 +16,17 @@
         "Name": "password",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "APIsLavaJato.Controllers.EmployeeController",
+    "ContainingType": "APIsNET.Controllers.v1.EmployeeController",
     "Method": "Add",
     "RelativePath": "api/v1/employee",
     "HttpMethod": "POST",
@@ -47,7 +52,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "APIsLavaJato.Controllers.EmployeeController",
+    "ContainingType": "APIsNET.Controllers.v1.EmployeeController",
     "Method": "Get",
     "RelativePath": "api/v1/employee",
     "HttpMethod": "GET",
@@ -68,9 +73,104 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "APIsLavaJato.Controllers.EmployeeController",
+    "ContainingType": "APIsNET.Controllers.v1.EmployeeController",
+    "Method": "Search",
+    "RelativePath": "api/v1/employee/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIsNET.Controllers.v1.EmployeeController",
     "Method": "DownloadPhoto",
     "RelativePath": "api/v1/employee/{id}/download",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIsNET.Controllers.v2.EmployeeController",
+    "Method": "Add",
+    "RelativePath": "api/v2/employee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Age",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Photo",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIsNET.Controllers.v2.EmployeeController",
+    "Method": "Get",
+    "RelativePath": "api/v2/employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageQuantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIsNET.Controllers.v2.EmployeeController",
+    "Method": "Search",
+    "RelativePath": "api/v2/employee/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIsNET.Controllers.v2.EmployeeController",
+    "Method": "DownloadPhoto",
+    "RelativePath": "api/v2/employee/{id}/download",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
